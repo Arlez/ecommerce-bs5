@@ -32,6 +32,10 @@ h3{
     background-color: var(--bs-green);
     color: white;
 }
+.btn-blue{
+    background-color: var(--bs-blue);
+    color: white;
+}
 .btn-green:hover{
     background-color: var(--bs-green);
     color: white;

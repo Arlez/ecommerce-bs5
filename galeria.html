@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700;900&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/app.css">
-    <title>Ecommerce - </title>
+    <title>Ecommerce - Galería</title>
 </head>
 <body>
 
@@ -38,13 +38,65 @@
 
     
     <main class="container-xl py-5">
-        <h2 class="text-center my-5">Nombre pagina</h2>
+        <h2 class="text-center my-5">Galería</h2>
 
-        <!--
-            Contenido aqui
-        -->
-
+        <ul class="row list-unstyled g-4">
+            <li class="col-md-6 col-lg-4">
+                <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_01">
+                    <img src="img/galeria_01.jpg" alt="" class="img-fluid">
+                </a>
+            </li>
+            <li class="col-md-6 col-lg-4">
+                <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_02">
+                    <img src="img/galeria_02.jpg" alt="" class="img-fluid">
+                </a>
+            </li>
+            <li class="col-md-6 col-lg-4">
+                <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_03">
+                    <img src="img/galeria_03.jpg" alt="" class="img-fluid">
+                </a>
+            </li>
+            <li class="col-md-6 col-lg-4">
+                <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_04">
+                    <img src="img/galeria_04.jpg" alt="" class="img-fluid">
+                </a>
+            </li>
+            <li class="col-md-6 col-lg-4">
+                <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_05">
+                    <img src="img/galeria_05.jpg" alt="" class="img-fluid">
+                </a>
+            </li>
+            <li class="col-md-6 col-lg-4">
+                <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_06">
+                    <img src="img/galeria_06.jpg" alt="" class="img-fluid">
+                </a>
+            </li>
+            <li class="col-md-6 col-lg-4">
+                <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_07">
+                    <img src="img/galeria_07.jpg" alt="" class="img-fluid">
+                </a>
+            </li>
+            <li class="col-md-6 col-lg-4">
+                <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_08">
+                    <img src="img/galeria_08.jpg" alt="" class="img-fluid">
+                </a>
+            </li>
+            <li class="col-md-6 col-lg-4">
+                <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_09">
+                    <img src="img/galeria_09.jpg" alt="" class="img-fluid">
+                </a>
+            </li>
+        </ul>
     </main><!--.main-->
+
+    <div class="modal fade" id="modal-imagen">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer class="pt-5 mt-5 border-top">
         <div class="container-xl mt-5">
@@ -84,5 +136,6 @@
     </footer>
 
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>
